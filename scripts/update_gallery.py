@@ -27,13 +27,13 @@ def get_ai_description(file_path, name_without_ext):
                     text += page.extract_text() + "\n"
             
             completion = client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.3-70b-versatile",
                 messages=[{
                     "role": "user",
                     "content": f"Analyze this certificate text and provide a short, professional 1-sentence description (under 15 words) stating the certification name and issuer. Text: {text[:1000]}"
                 }],
-                temperature=0.5,
-                max_completion_tokens=50,
+                temperature=1,
+                max_completion_tokens=100,
             )
             return completion.choices[0].message.content.strip().replace('"', '')
             
@@ -41,13 +41,13 @@ def get_ai_description(file_path, name_without_ext):
             # Fallback to generating a great description from the filename
             # This avoids Groq Vision Model tier restrictions
             completion = client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.3-70b-versatile",
                 messages=[{
                     "role": "user",
-                    "content": f"Write a short, professional 1-sentence description (under 15 words) for a professional certificate titled '{name_without_ext}'."
+                    "content": f"Write a short, professional 1-sentence description (under 20 words) for a certificate."
                 }],
-                temperature=0.5,
-                max_completion_tokens=50,
+                temperature=1,
+                max_completion_tokens=100,
             )
             return completion.choices[0].message.content.strip().replace('"', '')
             
