@@ -36,5 +36,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md logs/llm_output.log
-          git diff --quiet && git diff --staged --quiet || (git commit -m " Auto-update gallery + LLM logs" && git push)
+          git add README.md logs/llm_output.log generated_thumbs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m " Auto-update gallery + thumbnails + LLM logs" && git push)
