@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Certificate Gallery</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #121a2b;
+      --text: #e7ecf7;
+      --muted: #b8c2d9;
+      --accent: #6ea8fe;
+      --border: #22304d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1020, #0d1326 40%, #0b1020);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px 40px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      letter-spacing: 0.2px;
+    }
+    p.sub {
+      margin: 0 0 24px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 24px rgba(0,0,0,.25);
+    }
+    .thumb {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      background: #0f172a;
+    }
+    .content {
+      padding: 12px 12px 14px;
+    }
+    .title {
+      margin: 0 0 6px;
+      font-weight: 650;
+      font-size: 0.97rem;
+      color: #f2f6ff;
+    }
+    .desc {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.35;
+    }
+    .foot {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📚 Certificate Gallery</h1>
+    <p class="sub">Auto-generated from repository certificates with Gemini descriptions.</p>
+    <div class="grid">
+      
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate--5-.png" alt="Certificate (5)">
+  <div class="content">
+    <h3 class="title">Certificate (5)</h3>
+    <p class="desc">Statement of Accomplishment: Intermediate Python by DataCamp</p>
+  </div>
+</article>
+
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate.png" alt="Certificate">
+  <div class="content">
+    <h3 class="title">Certificate</h3>
+    <p class="desc">CodeSignal: Web Development with HTML, CSS, and JavaScript</p>
+  </div>
+</article>
+
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate--3-.png" alt="Certificate (3)">
+  <div class="content">
+    <h3 class="title">Certificate (3)</h3>
+    <p class="desc">Statement of Accomplishment by DataCamp for Understanding Machine Learning</p>
+  </div>
+</article>
+
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate--1-.png" alt="Certificate (1)">
+  <div class="content">
+    <h3 class="title">Certificate (1)</h3>
+    <p class="desc">CodeSignal PHP Laravel Basics Certificate</p>
+  </div>
+</article>
+
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate--4-.png" alt="Certificate (4)">
+  <div class="content">
+    <h3 class="title">Certificate (4)</h3>
+    <p class="desc">STATEMENT OF</p>
+  </div>
+</article>
+
+<article class="card">
+  <img class="thumb" src="generated_thumbs/certificate--2-.png" alt="Certificate (2)">
+  <div class="content">
+    <h3 class="title">Certificate (2)</h3>
+    <p class="desc">STATEMENT</p>
+  </div>
+</article>
+
+    </div>
+    <p class="foot">Updated automatically by GitHub Actions.</p>
+  </div>
+</body>
+</html>
