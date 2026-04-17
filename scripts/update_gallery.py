@@ -10,13 +10,11 @@ except ImportError:
 
 def get_ai_description(file_path):
     if not HAS_DEPS:
-        print("Missing dependencies (groq or PyPDF2).")
-        return None
+        return "AI Error: Missing dependencies (groq or PyPDF2)"
         
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        print("No GROQ_API_KEY found in environment variables.")
-        return None
+        return "AI Error: GROQ_API_KEY is missing in repo secrets"
         
     client = Groq(api_key=api_key)
     ext = os.path.splitext(file_path)[1].lower()
@@ -26,10 +24,9 @@ def get_ai_description(file_path):
             text = ""
             with open(file_path, 'rb') as f:
                 reader = PyPDF2.PdfReader(f)
-                for page in reader.pages[:1]: # Read first page only
+                for page in reader.pages[:1]:
                     text += page.extract_text() + "\n"
             
-            print(f"Sending PDF text to Groq for {file_path}...")
             completion = client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[{
@@ -45,14 +42,16 @@ def get_ai_description(file_path):
             with open(file_path, 'rb') as f:
                 img_b64 = base64.b64encode(f.read()).decode('utf-8')
             
-            print(f"Sending Image to Groq Vision for {file_path}...")
+            # Dynamically set the correct MIME type
+            mime_type = "image/png" if ext == '.png' else "image/jpeg"
+            
             completion = client.chat.completions.create(
                 model="llama-3.2-11b-vision-preview",
                 messages=[{
                     "role": "user",
                     "content": [
                         {"type": "text", "text": "Look at this certificate and provide a short, professional 1-sentence description (under 15 words) stating the certification name and issuer."},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}}
+                        {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{img_b64}"}}
                     ]
                 }],
                 temperature=0.5,
@@ -60,8 +59,9 @@ def get_ai_description(file_path):
             )
             return completion.choices[0].message.content.strip().replace('"', '')
     except Exception as e:
-        print(f"Groq API Error for {file_path}: {e}")
-        return None
+        # If Groq fails, return the error so we can read it on the README!
+        error_msg = str(e).replace('\n', ' ')
+        return f"API Error: {error_msg[:60]}..."
 
 def update_readme():
     repo_path = '.'
@@ -78,10 +78,7 @@ def update_readme():
                 file_path = os.path.join(root, file).replace('\\', '/').lstrip('./')
                 name_without_ext = os.path.splitext(file)[0].replace('-', ' ').replace('_', ' ').title()
                 
-                print(f"\nProcessing: {file_path}")
                 description = get_ai_description(file_path)
-                if not description:
-                    description = "Professional Certification" # Fallback if AI fails
                 
                 if file.lower().endswith('.pdf'):
                     md_entry = f"| 📄 **[{name_without_ext}]({file_path})**<br>_{description}_ |"
