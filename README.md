@@ -32,8 +32,8 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 <!-- START_SECTION:certificates -->
 | | |
 | :---: | :---: |
-| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_Sameul Hasan has successfully completed the Web Development with HTML, CSS, and JavaScript course as part of the Full-Stack Engineering with JavaScript learning path, issued by CodeSignal._ | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_Sameul Hasan has successfully completed the PHP Laravel Basics course as part of the Implementing MVC ToDo App with PHP Laravel learning path, earning a certificate from CodeSignal._ |
-| <img src='generated_thumbs/certificate--2-.png' width='250' alt='Certificate (2) PDF thumbnail'><br>_Md. Sameul Hasan has been awarded the Statement of Accomplishment for successfully completing Introduction to Python, a 4-hour course, on December 30, 2025, issued by DataCamp._ |  |
+| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_CodeSignal: Web Development with HTML, CSS, and JavaScript_ | <img src='generated_thumbs/certificate--3-.png' width='250' alt='Certificate (3) PDF thumbnail'><br>_Statement of Accomplishment by DataCamp for Understanding Machine Learning_ |
+| <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_CodeSignal PHP Laravel Basics Certificate_ | <img src='generated_thumbs/certificate--2-.png' width='250' alt='Certificate (2) PDF thumbnail'><br>_Statement of Accomplishment: Introduction to Python by DataCamp_ |
 
 <!-- END_SECTION:certificates -->
 
