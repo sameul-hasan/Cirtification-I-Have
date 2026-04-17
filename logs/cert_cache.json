@@ -1,0 +1,27 @@
+{
+  "certificates/2026/certificate.pdf": {
+    "sha256": "db4a1358966119cb146cd0fbc01f1d69e1d353c6c7de7c521e2762cb09debd3e",
+    "description": "Certificate - Same",
+    "thumbnail": "generated_thumbs/certificate.png"
+  },
+  "certificates/2026/certificate (3).pdf": {
+    "sha256": "692e58a9206a6fbee5b973e5328abc3ef421eda1a7191965636d3a7ee3fc1130",
+    "description": "Certificate (3) - Md",
+    "thumbnail": "generated_thumbs/certificate--3-.png"
+  },
+  "certificates/2026/certificate (1).pdf": {
+    "sha256": "304d245cebd7c7d18d654a82573e2eed5f8520e29290d68e55c094df0268a289",
+    "description": "Certificate (1) - CodeSignal awards Sameul Hasan Certificate in PHP Laravel Basics",
+    "thumbnail": "generated_thumbs/certificate--1-.png"
+  },
+  "certificates/2026/certificate (4).pdf": {
+    "sha256": "948e2d12885765329ed76c6fa2770cf5029f4394f799a5cf977b16241e37ec74",
+    "description": "Certificate (4) - Md",
+    "thumbnail": "generated_thumbs/certificate--4-.png"
+  },
+  "certificates/2026/certificate (2).pdf": {
+    "sha256": "63a21fd065dd1a63b61d22e925bd43562642c090e9efc17c88939697bb6fc1ce",
+    "description": "Certificate (2) - Md",
+    "thumbnail": "generated_thumbs/certificate--2-.png"
+  }
+}
