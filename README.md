@@ -30,7 +30,9 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 ## 🌟 Certificate Gallery
 
 <!-- START_SECTION:certificates -->
-*No certificates found yet. Upload some to see them here!*
+| | |
+| :---: | :---: |
+| 📄 **[Certificate](certificates/certificate.pdf)**<br>_There is no text provided to analyze, please provide the certificate text._ |  |
 
 <!-- END_SECTION:certificates -->
 
