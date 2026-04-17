@@ -32,7 +32,7 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 <!-- START_SECTION:certificates -->
 | | |
 | :---: | :---: |
-| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_Sameul Hasan has successfully completed the Web Development with HTML, CSS, and JavaScript course as part of the Full-Stack Engineering with JavaScript learning path, issued by CodeSignal._ | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_Sameul Hasan has successfully completed the PHP Laravel Basics course as part of the Implementing MVC ToDo App with PHP Laravel learning path, earning this certificate from CodeSignal._ |
+| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_Sameul Hasan has successfully completed the Web Development with HTML, CSS, and JavaScript course as part of the Full-Stack Engineering with JavaScript learning path, issued by CodeSignal._ | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_Sameul Hasan has successfully completed the PHP Laravel Basics course as part of the Implementing MVC ToDo App with PHP Laravel learning path, awarded by CodeSignal._ |
 
 <!-- END_SECTION:certificates -->
 
