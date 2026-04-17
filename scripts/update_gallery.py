@@ -89,8 +89,7 @@ def update_readme():
 
     gallery_md = ""
     if certificates:
-        gallery_md = "| | |
-| :---: | :---: |\n"
+        gallery_md = "| | |\n| :---: | :---: |\n"
         for i in range(0, len(certificates), 2):
             col1 = certificates[i] if i < len(certificates) else "| |"
             c1_content = col1.strip('|').strip()
@@ -112,5 +111,5 @@ def update_readme():
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(updated_readme)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     update_readme()
