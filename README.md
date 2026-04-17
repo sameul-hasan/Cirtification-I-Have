@@ -32,7 +32,7 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 <!-- START_SECTION:certificates -->
 | | |
 | :---: | :---: |
-| <a href='certificates/certificate.png'><img src='certificates/certificate.png' width='250' alt='Certificate'></a><br>**[Certificate](certificates/certificate.png)**<br>_This Web_ |  |
+| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_Professional Certification for Certificate_ |  |
 
 <!-- END_SECTION:certificates -->
 
