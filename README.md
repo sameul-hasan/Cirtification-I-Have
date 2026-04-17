@@ -30,7 +30,8 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 ## 🌟 Certificate Gallery
 
 <!-- START_SECTION:certificates -->
-<!-- Certificates will be auto-generated here by GitHub Actions -->
+*No certificates found yet. Upload some to see them here!*
+
 <!-- END_SECTION:certificates -->
 
 <br/>
