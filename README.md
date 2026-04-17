@@ -30,9 +30,7 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 ## 🌟 Certificate Gallery
 
 <!-- START_SECTION:certificates -->
-| | |
-| :---: | :---: |
-| <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_Professional Certification for Certificate_ |  |
+*No certificates found yet. Upload some to see them here!*
 
 <!-- END_SECTION:certificates -->
 
