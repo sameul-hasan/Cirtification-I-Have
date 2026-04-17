@@ -30,7 +30,9 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 ## 🌟 Certificate Gallery
 
 <!-- START_SECTION:certificates -->
-*No certificates found yet. Upload some to see them here!*
+| | |
+| :---: | :---: |
+| <a href='certificates/certificate.png'><img src='certificates/certificate.png' width='250' alt='Certificate'></a><br>**[Certificate](certificates/certificate.png)**<br>_API Error: Error code: 400 - {'error': {'message': 'The model `llama-3...._ |  |
 
 <!-- END_SECTION:certificates -->
 
