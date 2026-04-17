@@ -9,9 +9,25 @@
 
 <br/>
 
-## 🌟 Certificate Gallery
+## 📂 How it is Organized (Where to Upload)
 
-*Simply upload a `.pdf`, `.jpg`, or `.png` to this repository, and it will automatically appear below!*
+To keep things perfectly organized, I highly recommend creating a **`certificates/`** folder inside this repository. 
+
+Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or document (`.pdf`) into a structured folder based on the year or category. 
+
+**Example Structure:**
+```text
+📁 certificates/
+ ├── 📁 2023/
+ │    └── aws-cloud-practitioner.png
+ └── 📁 2024/
+      └── github-foundations.pdf
+```
+*Note: Any time you upload a file into the repository, the gallery below will automatically update!*
+
+<br/>
+
+## 🌟 Certificate Gallery
 
 <!-- START_SECTION:certificates -->
 <!-- Certificates will be auto-generated here by GitHub Actions -->
@@ -19,5 +35,18 @@
 
 <br/>
 
-## 🤝 Connect with Me
-If you're interested in discussing my background or any of these certifications, feel free to reach out via [GitHub](https://github.com/sameul-hasan)!
+## 🤝 Let's Connect
+
+I am always open to discussing technology, professional growth, and new opportunities. Feel free to reach out to me through any of the platforms below:
+
+<div align="center">
+  <a href="mailto:sameul.barishal@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/sameul-hasan">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
