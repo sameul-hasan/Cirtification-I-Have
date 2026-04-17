@@ -1,19 +1,23 @@
-# 🏆 Certificates & Achievements
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=My%20Certificates&fontSize=80&fontAlignY=35" alt="Header Banner" width="100%" />
 
-Welcome to my repository of professional certificates and achievements! This repository serves as a centralized portfolio of the certifications I've earned throughout my career.
+  ### 🏆 A Showcase of My Professional Growth and Achievements
+  
+  [![GitHub followers](https://img.shields.io/github/followers/sameul-hasan?style=social)](https://github.com/sameul-hasan)
+  [![Last Commit](https://img.shields.io/github/last-commit/sameul-hasan/Cirtification-I-Have?color=blue&style=flat-square)](https://github.com/sameul-hasan/Cirtification-I-Have/commits/main)
+</div>
 
-## 📜 Certifications
+<br/>
 
-| Certificate Name | Issuer | Date Earned | Credential ID / Link |
-| :--- | :--- | :--- | :--- |
-| [Example Certificate](link-to-file-or-cred) | Example Issuer | YYYY-MM | [Link/ID] |
+## 🌟 Certificate Gallery
 
-*(More certificates will be added here as I earn them!)*
+*Simply upload a `.pdf`, `.jpg`, or `.png` to this repository, and it will automatically appear below!*
 
-## 📂 Structure
+<!-- START_SECTION:certificates -->
+<!-- Certificates will be auto-generated here by GitHub Actions -->
+<!-- END_SECTION:certificates -->
 
-Certificates in this repository are organized by year or category. You can browse through the folders to view the PDF or image files for each certification.
+<br/>
 
-## 🤝 Connect with me
-
-Feel free to reach out to me if you'd like to discuss any of the skills or topics covered in these certifications!
+## 🤝 Connect with Me
+If you're interested in discussing my background or any of these certifications, feel free to reach out via [GitHub](https://github.com/sameul-hasan)!
