@@ -8,6 +8,7 @@ on:
       - '**/*.jpg'
       - '**/*.jpeg'
       - '**/*.png'
+      - '**/*.webp'
 
 permissions:
   contents: write
@@ -16,24 +17,24 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-          
+          python-version: '3.11'
+
       - name: Install AI Dependencies
-        run: pip install groq PyPDF2
-        
+        run: pip install google-genai pymupdf pillow
+
       - name: Run AI Gallery Update Script
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_gallery.py
-        
+
       - name: Commit Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update gallery with Groq AI descriptions" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update gallery with Gemini AI descriptions" && git push)
