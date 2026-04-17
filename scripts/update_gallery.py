@@ -49,6 +49,16 @@ def clean_description(text: str) -> str:
         return ""
     text = text.strip().replace('"', "").replace("\n", " ")
     text = re.sub(r"\s+", " ", text).strip()
+
+    # Keep only first sentence
+    if "." in text:
+        text = text.split(".")[0].strip()
+
+    # Hard cap to 15 words
+    words = text.split()
+    if len(words) > 15:
+        text = " ".join(words[:15]).strip()
+
     return text
 
 
@@ -66,7 +76,7 @@ def is_retryable_error(err_text: str) -> bool:
 def pdf_first_page_to_png_bytes(pdf_path: str) -> bytes:
     doc = fitz.open(pdf_path)
     page = doc.load_page(0)
-    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # better OCR/readability
+    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # better readability
     return pix.tobytes("png")
 
 
@@ -114,9 +124,9 @@ def describe_certificate(file_path: str, cert_name: str) -> str:
         return fallback
 
     prompt = (
-        "Read this certificate and write one clear professional description sentence. "
+        "Read this certificate and output exactly ONE short line (max 15 words). "
         "Include certificate title and issuer if visible. "
-        "Do not use markdown. Do not truncate."
+        "No markdown. No extra text."
     )
 
     try:
@@ -143,8 +153,8 @@ def describe_certificate(file_path: str, cert_name: str) -> str:
         ]
 
         config = types.GenerateContentConfig(
-            temperature=0.2,
-            max_output_tokens=120
+            temperature=0.1,
+            max_output_tokens=60
         )
 
         # Try models in availability order
