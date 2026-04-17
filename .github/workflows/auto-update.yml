@@ -17,15 +17,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - name: Run Gallery Update Script
+          
+      - name: Install AI Dependencies
+        run: pip install groq PyPDF2
+        
+      - name: Run AI Gallery Update Script
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/update_gallery.py
+        
       - name: Commit Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🎨 Auto-update certificate gallery" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update gallery with Groq AI descriptions" && git push)
