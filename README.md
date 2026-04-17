@@ -33,7 +33,8 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 | | |
 | :---: | :---: |
 | <img src='generated_thumbs/certificate--5-.png' width='250' alt='Certificate (5)'><br>_Statement of Accomplishment: Intermediate Python by DataCamp_ | <img src='generated_thumbs/certificate.png' width='250' alt='Certificate'><br>_CodeSignal: Web Development with HTML, CSS, and JavaScript_ |
-| <img src='generated_thumbs/10116607_10403215_1776415023233.png' width='250' alt='10116607 10403215 1776415023233'><br>_Simplilearn SkillUp Certificate of Completion for Sameul Hasan_ | <img src='generated_thumbs/certificate--3-.png' width='250' alt='Certificate (3)'><br>_Statement of Accomplishment by DataCamp for Understanding Machine Learning_ |
+| <img src='generated_thumbs/10116607_10403215_1776415023233.png' width='250' alt='10116607 10403215 1776415023233'><br>_Simplilearn SkillUp Certificate of Completion for Getting Started with Machine Learning Algorithms
+_ | <img src='generated_thumbs/certificate--3-.png' width='250' alt='Certificate (3)'><br>_Statement of Accomplishment by DataCamp for Understanding Machine Learning_ |
 | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1)'><br>_CodeSignal PHP Laravel Basics Certificate_ |  |
 
 <!-- END_SECTION:certificates -->
