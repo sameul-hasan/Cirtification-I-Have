@@ -10,6 +10,7 @@ except ImportError:
 
 def get_ai_description(file_path):
     if not HAS_DEPS:
+        print("Missing dependencies (groq or PyPDF2).")
         return None
         
     api_key = os.environ.get("GROQ_API_KEY")
@@ -28,6 +29,7 @@ def get_ai_description(file_path):
                 for page in reader.pages[:1]: # Read first page only
                     text += page.extract_text() + "\n"
             
+            print(f"Sending PDF text to Groq for {file_path}...")
             completion = client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[{
@@ -43,6 +45,7 @@ def get_ai_description(file_path):
             with open(file_path, 'rb') as f:
                 img_b64 = base64.b64encode(f.read()).decode('utf-8')
             
+            print(f"Sending Image to Groq Vision for {file_path}...")
             completion = client.chat.completions.create(
                 model="llama-3.2-11b-vision-preview",
                 messages=[{
@@ -75,7 +78,7 @@ def update_readme():
                 file_path = os.path.join(root, file).replace('\\', '/').lstrip('./')
                 name_without_ext = os.path.splitext(file)[0].replace('-', ' ').replace('_', ' ').title()
                 
-                print(f"Processing: {file_path}")
+                print(f"\nProcessing: {file_path}")
                 description = get_ai_description(file_path)
                 if not description:
                     description = "Professional Certification" # Fallback if AI fails
