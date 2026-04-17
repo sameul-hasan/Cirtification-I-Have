@@ -33,8 +33,8 @@ Whenever you earn a new certificate, simply upload the image (`.png`, `.jpg`) or
 | | |
 | :---: | :---: |
 | <img src='generated_thumbs/certificate--5-.png' width='250' alt='Certificate (5) PDF thumbnail'><br>_Statement of Accomplishment: Intermediate Python by DataCamp_ | <img src='generated_thumbs/certificate.png' width='250' alt='Certificate PDF thumbnail'><br>_CodeSignal: Web Development with HTML, CSS, and JavaScript_ |
-| <img src='generated_thumbs/certificate--3-.png' width='250' alt='Certificate (3) PDF thumbnail'><br>_Statement of Accomplishment by DataCamp for Understanding Machine Learning_ | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_PHP Laravel Basics_ |
-| <img src='generated_thumbs/certificate--4-.png' width='250' alt='Certificate (4) PDF thumbnail'><br>_STATEMENT OF_ | <img src='generated_thumbs/certificate--2-.png' width='250' alt='Certificate (2) PDF thumbnail'><br>_STATEMENT_ |
+| <img src='generated_thumbs/certificate--3-.png' width='250' alt='Certificate (3) PDF thumbnail'><br>_Statement of Accomplishment by DataCamp for Understanding Machine Learning_ | <img src='generated_thumbs/certificate--1-.png' width='250' alt='Certificate (1) PDF thumbnail'><br>_CodeSignal: PHP Laravel Basics_ |
+| <img src='generated_thumbs/certificate--4-.png' width='250' alt='Certificate (4) PDF thumbnail'><br>_Statement of Accomplishment: Introduction to Git by DataCamp_ | <img src='generated_thumbs/certificate--2-.png' width='250' alt='Certificate (2) PDF thumbnail'><br>_Statement of Accomplishment: Introduction to Python by DataCamp_ |
 
 <!-- END_SECTION:certificates -->
 
