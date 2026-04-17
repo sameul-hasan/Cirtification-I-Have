@@ -1,6 +1,5 @@
 import os
 import re
-import base64
 try:
     from groq import Groq
     import PyPDF2
@@ -8,13 +7,13 @@ try:
 except ImportError:
     HAS_DEPS = False
 
-def get_ai_description(file_path):
+def get_ai_description(file_path, name_without_ext):
     if not HAS_DEPS:
-        return "AI Error: Missing dependencies (groq or PyPDF2)"
+        return f"Professional Certification for {name_without_ext}"
         
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        return "AI Error: GROQ_API_KEY is missing in repo secrets"
+        return f"Professional Certification for {name_without_ext}"
         
     client = Groq(api_key=api_key)
     ext = os.path.splitext(file_path)[1].lower()
@@ -28,10 +27,10 @@ def get_ai_description(file_path):
                     text += page.extract_text() + "\n"
             
             completion = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="llama3-8b-8192",
                 messages=[{
                     "role": "user",
-                    "content": f"Analyze this certificate text and provide a short, professional 1-sentence description (under 15 words) stating the certification name and issuer. Text: {text[:1500]}"
+                    "content": f"Analyze this certificate text and provide a short, professional 1-sentence description (under 15 words) stating the certification name and issuer. Text: {text[:1000]}"
                 }],
                 temperature=0.5,
                 max_completion_tokens=50,
@@ -39,29 +38,21 @@ def get_ai_description(file_path):
             return completion.choices[0].message.content.strip().replace('"', '')
             
         elif ext in ['.png', '.jpg', '.jpeg']:
-            with open(file_path, 'rb') as f:
-                img_b64 = base64.b64encode(f.read()).decode('utf-8')
-            
-            # Dynamically set the correct MIME type
-            mime_type = "image/png" if ext == '.png' else "image/jpeg"
-            
+            # Fallback to generating a great description from the filename
+            # This avoids Groq Vision Model tier restrictions
             completion = client.chat.completions.create(
-                model="llama-3.2-11b-vision-preview",
+                model="llama3-8b-8192",
                 messages=[{
                     "role": "user",
-                    "content": [
-                        {"type": "text", "text": "Look at this certificate and provide a short, professional 1-sentence description (under 15 words) stating the certification name and issuer."},
-                        {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{img_b64}"}}
-                    ]
+                    "content": f"Write a short, professional 1-sentence description (under 15 words) for a professional certificate titled '{name_without_ext}'."
                 }],
                 temperature=0.5,
                 max_completion_tokens=50,
             )
             return completion.choices[0].message.content.strip().replace('"', '')
+            
     except Exception as e:
-        # If Groq fails, return the error so we can read it on the README!
-        error_msg = str(e).replace('\n', ' ')
-        return f"API Error: {error_msg[:60]}..."
+        return f"Professional Certification for {name_without_ext}"
 
 def update_readme():
     repo_path = '.'
@@ -78,7 +69,7 @@ def update_readme():
                 file_path = os.path.join(root, file).replace('\\', '/').lstrip('./')
                 name_without_ext = os.path.splitext(file)[0].replace('-', ' ').replace('_', ' ').title()
                 
-                description = get_ai_description(file_path)
+                description = get_ai_description(file_path, name_without_ext)
                 
                 if file.lower().endswith('.pdf'):
                     md_entry = f"| 📄 **[{name_without_ext}]({file_path})**<br>_{description}_ |"
