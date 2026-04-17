@@ -91,6 +91,35 @@
       max-width: 72ch;
     }
 
+    .profile-note {
+      margin: 14px 0 0;
+      color: #d9e7ff;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .profile-note strong {
+      color: #ffffff;
+    }
+
+    .meta-badges {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .meta-badges a {
+      text-decoration: none;
+    }
+
+    .meta-badges img {
+      display: block;
+      height: 20px;
+      border-radius: 6px;
+      border: 1px solid rgba(122, 154, 207, 0.25);
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -197,6 +226,45 @@
       opacity: 0.9;
     }
 
+    .connect {
+      margin-top: 30px;
+      padding: 18px;
+      border: 1px solid rgba(98, 128, 179, 0.32);
+      border-radius: 16px;
+      background: linear-gradient(130deg, rgba(14, 21, 37, 0.92), rgba(8, 12, 22, 0.92));
+      box-shadow: 0 18px 44px -28px var(--shadow);
+    }
+
+    .connect h2 {
+      margin: 0 0 8px;
+      font-size: 1.24rem;
+      letter-spacing: 0.01em;
+    }
+
+    .connect p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .social-links {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+    }
+
+    .social-links img {
+      display: block;
+      height: 34px;
+      border-radius: 8px;
+      border: 1px solid rgba(122, 154, 207, 0.25);
+    }
+
     @media (max-width: 680px) {
       .wrap {
         padding: 20px 12px 34px;
@@ -215,9 +283,18 @@
 <body>
   <div class="wrap">
     <header class="hero">
-      <p class="chip">AUTO GENERATED PORTFOLIO</p>
-      <h1>Certificate Console</h1>
-      <p class="sub">A coding-inspired gallery generated from repository assets with short AI summaries.</p>
+      <p class="chip">PROFESSIONAL PORTFOLIO</p>
+      <h1>Professional Certificate Portfolio</h1>
+      <p class="sub">A curated showcase of verified certifications that reflect continuous learning and technical growth.</p>
+      <p class="profile-note"><strong>Sameul Hasan</strong> | Dedicated to building practical, industry-ready software engineering skills through structured learning and certification.</p>
+      <div class="meta-badges">
+        <a href="https://github.com/sameul-hasan" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/github/followers/sameul-hasan?style=social" alt="GitHub followers" />
+        </a>
+        <a href="https://github.com/sameul-hasan/Cirtification-I-Have/commits/main" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/github/last-commit/sameul-hasan/Cirtification-I-Have?color=blue&style=flat-square" alt="Last commit" />
+        </a>
+      </div>
     </header>
     <div class="grid">
       
@@ -327,6 +404,21 @@
 </article>
 
     </div>
+    <footer class="connect">
+      <h2>Let's Connect</h2>
+      <p>I am always open to discussing technology, professional growth, and new opportunities.</p>
+      <div class="social-links">
+        <a href="mailto:sameul.barishal@gmail.com">
+          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        <a href="https://github.com/sameul-hasan" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+        </a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+      </div>
+    </footer>
     <p class="foot">Generated at: 2026-04-17T12:59:38.876411Z | Updated automatically by GitHub Actions.</p>
   </div>
 </body>
