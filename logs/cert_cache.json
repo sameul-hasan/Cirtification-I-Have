@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-17T15:12:03.580415Z",
+  "generated_at_utc": "2026-04-18T15:30:28.661919Z",
   "items": {
     "certificates/2026/10116607_10403215_1776415023233.pdf": {
       "certificate_name": "10116607 10403215 1776415023233",
@@ -7,7 +7,7 @@
       "sha256": "bc7228f14188c3d9e02e62566f9825b031d05e498487ea6a24cfa1dea6de40a4",
       "source_path": "certificates/2026/10116607_10403215_1776415023233.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__10116607_10403215_1776415023233.png",
-      "updated_at_utc": "2026-04-17T15:11:59.734670Z"
+      "updated_at_utc": "2026-04-18T15:30:28.001442Z"
     },
     "certificates/2026/UC-92c356ec-4477-4854-b853-276bf3676dff.pdf": {
       "certificate_name": "Uc 92C356Ec 4477 4854 B853 276Bf3676Dff",
@@ -15,7 +15,15 @@
       "sha256": "5b4ebc499c270efb199b1690a51ed3a4a6e8759804ef2a40c3ca5137cd702f04",
       "source_path": "certificates/2026/UC-92c356ec-4477-4854-b853-276bf3676dff.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__uc-92c356ec-4477-4854-b853-276bf3676dff.png",
-      "updated_at_utc": "2026-04-17T15:12:03.579427Z"
+      "updated_at_utc": "2026-04-18T15:30:28.001673Z"
+    },
+    "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png": {
+      "certificate_name": "Aws Academy Graduate Cloud Security Foundations Tra",
+      "description": "AWS Academy Cloud Security Foundations Trained by AWS Academy",
+      "sha256": "ff369f36c26d43c89e396be8a13904fb54def81174598717085058f2f87fe970",
+      "source_path": "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png",
+      "thumb_path": "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png",
+      "updated_at_utc": "2026-04-18T15:30:28.660851Z"
     },
     "certificates/2026/certificate (1).pdf": {
       "certificate_name": "Certificate (1)",
@@ -23,7 +31,7 @@
       "sha256": "304d245cebd7c7d18d654a82573e2eed5f8520e29290d68e55c094df0268a289",
       "source_path": "certificates/2026/certificate (1).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--1.png",
-      "updated_at_utc": "2026-04-17T15:12:03.579600Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661079Z"
     },
     "certificates/2026/certificate (2).pdf": {
       "certificate_name": "Certificate (2)",
@@ -31,7 +39,7 @@
       "sha256": "63a21fd065dd1a63b61d22e925bd43562642c090e9efc17c88939697bb6fc1ce",
       "source_path": "certificates/2026/certificate (2).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--2.png",
-      "updated_at_utc": "2026-04-17T15:12:03.579763Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661271Z"
     },
     "certificates/2026/certificate (3).pdf": {
       "certificate_name": "Certificate (3)",
@@ -39,7 +47,7 @@
       "sha256": "692e58a9206a6fbee5b973e5328abc3ef421eda1a7191965636d3a7ee3fc1130",
       "source_path": "certificates/2026/certificate (3).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--3.png",
-      "updated_at_utc": "2026-04-17T15:12:03.579926Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661452Z"
     },
     "certificates/2026/certificate (4).pdf": {
       "certificate_name": "Certificate (4)",
@@ -47,7 +55,7 @@
       "sha256": "948e2d12885765329ed76c6fa2770cf5029f4394f799a5cf977b16241e37ec74",
       "source_path": "certificates/2026/certificate (4).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--4.png",
-      "updated_at_utc": "2026-04-17T15:12:03.580082Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661613Z"
     },
     "certificates/2026/certificate (5).pdf": {
       "certificate_name": "Certificate (5)",
@@ -55,7 +63,7 @@
       "sha256": "d5baba25cb23a54a448c16367aa1e2167487ca26cd9d1c0047adb7c3d143371f",
       "source_path": "certificates/2026/certificate (5).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--5.png",
-      "updated_at_utc": "2026-04-17T15:12:03.580257Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661770Z"
     },
     "certificates/2026/certificate.pdf": {
       "certificate_name": "Certificate",
@@ -63,7 +71,7 @@
       "sha256": "db4a1358966119cb146cd0fbc01f1d69e1d353c6c7de7c521e2762cb09debd3e",
       "source_path": "certificates/2026/certificate.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate.png",
-      "updated_at_utc": "2026-04-17T15:12:03.580404Z"
+      "updated_at_utc": "2026-04-18T15:30:28.661908Z"
     }
   }
 }
