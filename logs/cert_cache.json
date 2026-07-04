@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T19:01:53.750925Z",
+  "generated_at_utc": "2026-07-04T03:52:17.582374Z",
   "items": {
     "certificates/2026/10116607_10403215_1776415023233.pdf": {
       "certificate_name": "10116607 10403215 1776415023233",
@@ -7,7 +7,7 @@
       "sha256": "bc7228f14188c3d9e02e62566f9825b031d05e498487ea6a24cfa1dea6de40a4",
       "source_path": "certificates/2026/10116607_10403215_1776415023233.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__10116607_10403215_1776415023233.png",
-      "updated_at_utc": "2026-07-01T19:01:47.269172Z"
+      "updated_at_utc": "2026-07-04T03:52:10.812054Z"
     },
     "certificates/2026/AWS_Academy_Graduate___Cloud_Security_Foundations___Training_Badge_Badge20260418-30-1id5d2.pdf": {
       "certificate_name": "Aws Academy Graduate Cloud Security Foundations Training Badge Badge20260418 30 1Id5D2",
@@ -15,7 +15,7 @@
       "sha256": "b2df954cfd5b17013cead4015dd17382b409bbc55f3b579180dbb836cd80639c",
       "source_path": "certificates/2026/AWS_Academy_Graduate___Cloud_Security_Foundations___Training_Badge_Badge20260418-30-1id5d2.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__aws_academy_graduate___cloud_security_foundations___training_badge_badge20260418-30-1id5d2.png",
-      "updated_at_utc": "2026-07-01T19:01:47.270211Z"
+      "updated_at_utc": "2026-07-04T03:52:10.813137Z"
     },
     "certificates/2026/SQLI0029743362138.png": {
       "certificate_name": "Sqli0029743362138",
@@ -23,7 +23,7 @@
       "sha256": "84a269f2aa1decc90cdb0f91e84a2321ca32ac0475bf094d68720b746fd33406",
       "source_path": "certificates/2026/SQLI0029743362138.png",
       "thumb_path": "certificates/2026/SQLI0029743362138.png",
-      "updated_at_utc": "2026-07-01T19:01:53.749248Z"
+      "updated_at_utc": "2026-07-04T03:52:10.815626Z"
     },
     "certificates/2026/UC-92c356ec-4477-4854-b853-276bf3676dff.pdf": {
       "certificate_name": "Uc 92C356Ec 4477 4854 B853 276Bf3676Dff",
@@ -31,7 +31,7 @@
       "sha256": "5b4ebc499c270efb199b1690a51ed3a4a6e8759804ef2a40c3ca5137cd702f04",
       "source_path": "certificates/2026/UC-92c356ec-4477-4854-b853-276bf3676dff.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__uc-92c356ec-4477-4854-b853-276bf3676dff.png",
-      "updated_at_utc": "2026-07-01T19:01:53.749546Z"
+      "updated_at_utc": "2026-07-04T03:52:10.815871Z"
     },
     "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png": {
       "certificate_name": "Aws Academy Graduate Cloud Security Foundations Tra",
@@ -39,7 +39,7 @@
       "sha256": "ff369f36c26d43c89e396be8a13904fb54def81174598717085058f2f87fe970",
       "source_path": "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png",
       "thumb_path": "certificates/2026/aws-academy-graduate-cloud-security-foundations-tra.png",
-      "updated_at_utc": "2026-07-01T19:01:53.749660Z"
+      "updated_at_utc": "2026-07-04T03:52:10.815963Z"
     },
     "certificates/2026/certificate (1).pdf": {
       "certificate_name": "Certificate (1)",
@@ -47,7 +47,7 @@
       "sha256": "304d245cebd7c7d18d654a82573e2eed5f8520e29290d68e55c094df0268a289",
       "source_path": "certificates/2026/certificate (1).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--1.png",
-      "updated_at_utc": "2026-07-01T19:01:53.749812Z"
+      "updated_at_utc": "2026-07-04T03:52:10.816102Z"
     },
     "certificates/2026/certificate (2).pdf": {
       "certificate_name": "Certificate (2)",
@@ -55,7 +55,7 @@
       "sha256": "63a21fd065dd1a63b61d22e925bd43562642c090e9efc17c88939697bb6fc1ce",
       "source_path": "certificates/2026/certificate (2).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--2.png",
-      "updated_at_utc": "2026-07-01T19:01:53.749976Z"
+      "updated_at_utc": "2026-07-04T03:52:10.816277Z"
     },
     "certificates/2026/certificate (3).pdf": {
       "certificate_name": "Certificate (3)",
@@ -63,7 +63,7 @@
       "sha256": "692e58a9206a6fbee5b973e5328abc3ef421eda1a7191965636d3a7ee3fc1130",
       "source_path": "certificates/2026/certificate (3).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--3.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750136Z"
+      "updated_at_utc": "2026-07-04T03:52:10.816444Z"
     },
     "certificates/2026/certificate (4).pdf": {
       "certificate_name": "Certificate (4)",
@@ -71,7 +71,7 @@
       "sha256": "948e2d12885765329ed76c6fa2770cf5029f4394f799a5cf977b16241e37ec74",
       "source_path": "certificates/2026/certificate (4).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--4.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750291Z"
+      "updated_at_utc": "2026-07-04T03:52:10.816606Z"
     },
     "certificates/2026/certificate (5).pdf": {
       "certificate_name": "Certificate (5)",
@@ -79,7 +79,23 @@
       "sha256": "d5baba25cb23a54a448c16367aa1e2167487ca26cd9d1c0047adb7c3d143371f",
       "source_path": "certificates/2026/certificate (5).pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate--5.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750463Z"
+      "updated_at_utc": "2026-07-04T03:52:10.816761Z"
+    },
+    "certificates/2026/certificate 10.pdf": {
+      "certificate_name": "Certificate 10",
+      "description": "Statement of Accomplishment, Intermediate SQL by DataCamp",
+      "sha256": "eee889b9b085b2fcd5965d5fcc921533b1c9886186a54984bae0ee8cd16715fc",
+      "source_path": "certificates/2026/certificate 10.pdf",
+      "thumb_path": "generated_thumbs/certificates__2026__certificate-10.png",
+      "updated_at_utc": "2026-07-04T03:52:15.684109Z"
+    },
+    "certificates/2026/certificate 11.pdf": {
+      "certificate_name": "Certificate 11",
+      "description": "Statement of Accomplishment by DataCamp for Joining Data in SQL",
+      "sha256": "554c2bc46005070faaa9a761814fae83e173a77831c41d6e37a629bc95c97cc4",
+      "source_path": "certificates/2026/certificate 11.pdf",
+      "thumb_path": "generated_thumbs/certificates__2026__certificate-11.png",
+      "updated_at_utc": "2026-07-04T03:52:17.581719Z"
     },
     "certificates/2026/certificate 8.pdf": {
       "certificate_name": "Certificate 8",
@@ -87,7 +103,7 @@
       "sha256": "20bd3a2c8c2112ebd38776d286b76a3b5885a602ccbc69b74569877f4d6fe5cc",
       "source_path": "certificates/2026/certificate 8.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate-8.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750620Z"
+      "updated_at_utc": "2026-07-04T03:52:17.581968Z"
     },
     "certificates/2026/certificate 9.pdf": {
       "certificate_name": "Certificate 9",
@@ -95,7 +111,7 @@
       "sha256": "42d4b6d0d09cd03a9296fce5113fb0b7c82622f7e81fa0a5f6b1ca524d3430ec",
       "source_path": "certificates/2026/certificate 9.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate-9.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750775Z"
+      "updated_at_utc": "2026-07-04T03:52:17.582177Z"
     },
     "certificates/2026/certificate.pdf": {
       "certificate_name": "Certificate",
@@ -103,7 +119,7 @@
       "sha256": "db4a1358966119cb146cd0fbc01f1d69e1d353c6c7de7c521e2762cb09debd3e",
       "source_path": "certificates/2026/certificate.pdf",
       "thumb_path": "generated_thumbs/certificates__2026__certificate.png",
-      "updated_at_utc": "2026-07-01T19:01:53.750915Z"
+      "updated_at_utc": "2026-07-04T03:52:17.582362Z"
     }
   }
 }
